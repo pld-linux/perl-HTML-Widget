@@ -6,7 +6,7 @@
 %define	pdir	HTML
 %define	pnam	Widget
 Summary:	HTML::Widget - HTML Widget And Validation Framework
-#Summary(pl):	
+Summary(pl):	HTML::Widget - szkielet widgetów i kontroli poprawno¶ci HTML-a
 Name:		perl-HTML-Widget
 Version:	1.06
 Release:	1
@@ -40,10 +40,20 @@ The API was designed similar to other popular modules like
 Data::FormValidator and FormValidator::Simple,
 HTML::FillInForm is also built in (and much faster).
 
-This Module is very powerful, don't misuse it as a template system!
+This module is very powerful, don't misuse it as a template system!
 
-# %description -l pl
-# TODO
+%description -l pl
+Modu³ do tworzenia ³atwych w utrzymianiu widgetów HTML.
+
+Wszystko jest opcjonalne, mo¿na u¿ywaæ tylko kontroli poprawno¶ci lub
+tylko tworzyæ formularze; mo¿na osadzaæ je i w³±czaæ pó¼niej.
+
+API zosta³o zaprojektowane na podobieñstwo innych popularnych modu³ów,
+takich jak Data::FormValidator i FormValidator::Simple;
+HTML::FillInForm jest tak¿e wbudowany (i du¿o szybszy).
+
+Ten modu³ jest naprawdê potê¿ny, nie nale¿y go nadu¿ywaæ jako systemu
+szablonów!
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
