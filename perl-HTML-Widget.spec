@@ -8,7 +8,7 @@
 Summary:	HTML::Widget - HTML Widget And Validation Framework
 Summary(pl):	HTML::Widget - szkielet widgetów i kontroli poprawno¶ci HTML-a
 Name:		perl-HTML-Widget
-Version:	1.06
+Version:	1.07
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
