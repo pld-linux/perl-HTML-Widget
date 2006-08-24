@@ -9,7 +9,7 @@ Summary:	HTML::Widget - HTML Widget And Validation Framework
 Summary(pl):	HTML::Widget - szkielet widgetów i kontroli poprawno¶ci HTML-a
 Name:		perl-HTML-Widget
 Version:	1.07
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -20,12 +20,14 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Class-Accessor
 BuildRequires:	perl-Class-Accessor-Chained
+BuildRequires:	perl-Class-Data-Accessor
 BuildRequires:	perl-Date-Calc
 BuildRequires:	perl-Email-Valid
 BuildRequires:	perl-HTML-Tree
 BuildRequires:	perl-HTML-Scrubber
 BuildRequires:	perl-Module-Pluggable-Fast
 BuildRequires:	perl-Test-NoWarnings
+BuildRequires:	perl-Test-Pod-Coverage
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
