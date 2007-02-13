@@ -6,7 +6,7 @@
 %define	pdir	HTML
 %define	pnam	Widget
 Summary:	HTML::Widget - HTML Widget And Validation Framework
-Summary(pl.UTF-8):   HTML::Widget - szkielet widgetów i kontroli poprawności HTML-a
+Summary(pl.UTF-8):	HTML::Widget - szkielet widgetów i kontroli poprawności HTML-a
 Name:		perl-HTML-Widget
 Version:	1.07
 Release:	3
